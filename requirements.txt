@@ -1,0 +1,20 @@
+langchain>=0.1.0
+langchain-google-genai>=0.0.2
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.2
+google-generativeai>=0.3.0
+pypdf>=3.17.0
+python-dotenv>=1.0.0
+unstructured>=0.10.12
+rank-bm25>=0.2.2
+faiss-cpu>=1.7.4
+tiktoken>=0.5.1
+markdown>=3.10.0
+
+# Streamlit requirements
+streamlit>=1.28.0
+streamlit-chat>=0.1.0
+streamlit-option-menu>=0.3.2
+plotly>=5.17.0

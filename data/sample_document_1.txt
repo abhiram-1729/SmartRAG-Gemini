@@ -1,0 +1,28 @@
+RAG Application Documentation
+
+This document describes the RAG (Retrieval-Augmented Generation) application built with LangChain and Google Gemini.
+
+Overview:
+The RAG application allows users to ask questions about their documents and receive answers based on the content. It uses vector embeddings for semantic search and Google's Gemini model for generating answers.
+
+Key Features:
+1. Document ingestion for PDF, TXT, and MD files
+2. Chunking with overlap for context preservation
+3. Multiple retrieval strategies
+4. Source citation in answers
+5. Interactive and batch modes
+6. Streaming responses
+
+Architecture:
+The system has three main components:
+- Ingestion pipeline: Loads and processes documents
+- Vector store: Stores and retrieves document embeddings using Chroma
+- RAG chain: Combines retrieval with generation using Gemini
+
+Model Information:
+- LLM: Google Gemini Pro (gemini-pro)
+- Embeddings: BAAI/bge-small-en-v1.5 (or Gemini embeddings)
+- Vector Store: ChromaDB
+
+Usage:
+To use the application, first ingest documents, then run in interactive or query mode.
