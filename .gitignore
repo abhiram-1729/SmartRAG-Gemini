@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# OS files
+.DS_Store
+
+# Streamlit and logs
+.streamlit/
+logs/
+
+# Data / vector store outputs
+vector_store/
+vectorstore/
+*.sqlite3
+*.db
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# VSCode / editor
+.vscode/
+.idea/
+
