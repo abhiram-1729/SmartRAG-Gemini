@@ -10,7 +10,7 @@ load_dotenv()
 class Config:
     # Model configurations
     EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"  # Can also use Gemini embeddings
-    LLM_MODEL = "gemini-2.5-flash"  # Using Gemini 1.5 Flash (better quota)
+    LLM_MODEL = "gemini-2.5-flash"  # Using Gemini 2.5 Flash (better quota)
     # For embeddings: "models/embedding-001" (when using Gemini embeddings)
     
     # Vector store settings

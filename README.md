@@ -10,6 +10,12 @@ Streamlit UI for a Retrieval-Augmented Generation (RAG) assistant that uses Goog
   <img src="https://developers.google.com/static/learn/pathways/guides/gemini-overview/social.png" alt="Gemini" width="420" />
 </div>
 
+### Application Screenshot
+
+<div align="center">
+  <img src="image/test.png" alt="RAG Chat Assistant Screenshot" width="100%" />
+</div>
+
 Features
 --------
 - Streamlit chat UI with source citations and similarity score display
