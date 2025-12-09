@@ -5,10 +5,6 @@ Overview
 --------
 Streamlit UI for a Retrieval-Augmented Generation (RAG) assistant that uses Google Gemini and ChromaDB. Upload documents, ingest them into a vector store, and chat with Gemini using retrieved context.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/langchain-ai/.github/main/profile/langchain-og.png" alt="LangChain" width="420" />
-  <img src="https://developers.google.com/static/learn/pathways/guides/gemini-overview/social.png" alt="Gemini" width="420" />
-</div>
 
 ### Application Screenshot
 
